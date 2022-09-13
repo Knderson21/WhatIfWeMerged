@@ -28,6 +28,7 @@ import { YoungchadComponent } from './youngchad/youngchad.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'youngchad', component: YoungchadComponent },
     ])
   ],
   providers: [],
